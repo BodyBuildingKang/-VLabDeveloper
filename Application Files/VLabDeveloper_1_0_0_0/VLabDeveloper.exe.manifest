@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VLabDeveloper.exe" version="1.0.0.0" publicKeyToken="05c02d9edb80c80e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VLabDeveloper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VLabDeveloper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LitJSON.dll" size="61440">
+      <assemblyIdentity name="LitJSON" version="0.17.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sT7+0SHMOnbIWdMkFoSIGpxab6sSqakehvxdEIyNxAs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CkqWCC4ldn5GlwM2SbFsdqZS4SB1eizsq4CSrQ1xa2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yEOGmqylE1wtRylphfNcccqK9EMSiNBNSBxORsyT7iY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VLabDeveloper.exe" size="306192">
+      <assemblyIdentity name="VLabDeveloper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>O19NaRzdUZu7bpNuBNNiCaq7BJEYsnBDM6C8fYjP4sE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RVDKCHHB7Bbc8OCDjrVh0YX1wwsxh6Wja748nkSKrhI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VLabDeveloper.exe.config" size="924">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UDOxnrA4EV/LFPbo96Sf+/WiXetHErVwLAYo4QdZZJI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ND--20200605QBJ\Administrator" issuerKeyHash="39be5a24fc7dfa8f1b8d6486f5210bf0141e2cbd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>R17DBnPlkr65AjoKVC/2dJMoLPayA3MnnkWZP/PFtjo=</DigestValue></Reference></SignedInfo><SignatureValue>bXhrg7TNyu2xm7WUZImSZlrxGKUj8mx9zlmDtASXO2hQKSENPBHlg37Vz6SP6FoXecpeB0QFcXRBSfr9JOUHnCs6YPrAhfFEv53P8DCN44HED9vesv3C6FSNjOSooLSu9lErtK+3NwrKbCYkVLJHDMH0ltciZy+iAR3uEUEl5jo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xwNayofpM4MgkevaMQFB76JhFmB1wyOXkcoadjcO9TGXOdo3Zugy4pC1ueWu8ws6iRAGuj8gws+r/Dv8wgGv8+XRTB7C2nBT2RAFiobwdDyJjB4W4TOnfodxRVod/XYa4TYrGZVvd7ZxOyYO2wFoJHCdRQJiJLJ70V90yZWMqT0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3ab6c5f33f99459e277303b2f62c289374f62f540a3a02b9be92e57306c35e47" Description="" Url=""><as:assemblyIdentity name="VLabDeveloper.exe" version="1.0.0.0" publicKeyToken="05c02d9edb80c80e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ND--20200605QBJ\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ba5jfgR+B8GZRdQLjh9QaXX0L8TpWxpH3GCY/tDa4zU=</DigestValue></Reference></SignedInfo><SignatureValue>wx+EwKSDLjHKW5o4YhlK+FCNW98KC/Bzf7kZvPLjM1xqbuD44Gzk/5FTC9OT7zWLzTXkAdJ65iEfsHnyCE/RpPTka6HXTAr9AvRku2iMdQ4MNKpyRWu73z4m5Bkj+l9/DVaIsPBiTM0r3UfdAdp5rh4hBZxcjE/69YN1bWsE2/0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xwNayofpM4MgkevaMQFB76JhFmB1wyOXkcoadjcO9TGXOdo3Zugy4pC1ueWu8ws6iRAGuj8gws+r/Dv8wgGv8+XRTB7C2nBT2RAFiobwdDyJjB4W4TOnfodxRVod/XYa4TYrGZVvd7ZxOyYO2wFoJHCdRQJiJLJ70V90yZWMqT0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQG4aH2iHLoZdHqLkv1DtSTjANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoATgBEAC0ALQAyADAAMgAwADAANgAwADUAUQBCAEoAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTIxMDYyMTEzMTQ1N1oXDTIyMDYyMTE5MTQ1N1owRTFDMEEGA1UEAx46AE4ARAAtAC0AMgAwADIAMAAwADYAMAA1AFEAQgBKAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxwNayofpM4MgkevaMQFB76JhFmB1wyOXkcoadjcO9TGXOdo3Zugy4pC1ueWu8ws6iRAGuj8gws+r/Dv8wgGv8+XRTB7C2nBT2RAFiobwdDyJjB4W4TOnfodxRVod/XYa4TYrGZVvd7ZxOyYO2wFoJHCdRQJiJLJ70V90yZWMqT0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBh1ArDa7Is5WyI+9zLT0YzSk2welYnrRMc5NtxilrDveiaiRP3SSRyKf0asgGujVCVl1BFQThKjKYZfmnfaUUvUCy2FuC8JsEpFhhQBj0QxNezb4ZPjC2uKZy0eq3lmYX3zz1Pm0bBUAaM9KjmkhMmPlzyj5vpEpUocTlLnuo9Tg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
