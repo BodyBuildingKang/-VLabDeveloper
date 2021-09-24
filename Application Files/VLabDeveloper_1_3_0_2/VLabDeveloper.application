@@ -8,7 +8,7 @@
         <expiration maximumAge="0" unit="days" />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://hohiyi.github.io/VLabDeveloper/VLabDeveloper.application" />
+    <deploymentProvider codebase="https://github.com/kangzhentian/-VLabDeveloper.git/VLabDeveloper.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
